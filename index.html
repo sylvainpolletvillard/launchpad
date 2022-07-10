@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Launchpad MK2 tests</title>
+  </head>
+  <body>
+    <h1>Testing WebMidi JavaScript API with Launchpad MK2</h1>
+    <p>Launchpad status: <span id='pad_status'>Not connected</span></p>
+    <p>Current mode: <span id='mode'></span></p>
+
+    <section mode="equalizer">
+      Microphone permissions: <span id="mic_status">please allow the use of your microphone</span>
+    </section>
+
+    <section mode="midi">
+      <p>Currently playing: <span id="current_song"></span></p>
+      <p>Current instrument: <span id="current_instrument"></span></p>
+    </section>
+
+    <section mode="soundboard">
+      <audio id="audio"></audio>
+      <button id="save-button">save board as json</button>
+    </section>
+
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>

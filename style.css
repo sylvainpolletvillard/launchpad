@@ -1,0 +1,23 @@
+body {
+  font-size: 2rem;
+  background: black;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+textarea {
+  font-size: 3rem;
+  width: 100rem;
+  vertical-align: middle;
+  background: #333;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  margin: 0.25em 0;
+}
