@@ -21,7 +21,7 @@ for(let boardName of boards){
     } catch(err){}
 
     sounds.forEach(sound => {
-      if(!Object.values(board).includes(sound)){
+      if(!Object.values(board).some(key => key.sound === sound)){
         let freeIndex = 0;
         while(freeIndex in board && freeIndex < 64) freeIndex++;
         board[freeIndex] = { sound, color: freeIndex }

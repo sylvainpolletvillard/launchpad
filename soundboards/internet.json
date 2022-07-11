@@ -3,13 +3,29 @@
 		"sound": "react-non.mp3",
 		"color": 5
 	},
-	"3": {
+	"1": {
+		"sound": "react-non2.mp3",
+		"color": 1
+	},
+	"2": {
 		"sound": "react-ah.mp3",
 		"color": 5
 	},
+	"3": {
+		"sound": "sound-surprise-motherfucka.mp3",
+		"color": 35
+	},
+	"4": {
+		"sound": "react-rage.mp3",
+		"color": 4
+	},
 	"5": {
-		"sound": "react-wow.mp3",
-		"color": 12
+		"sound": "react-badumtss.mp3",
+		"color": 10
+	},
+	"6": {
+		"sound": "react-hi1.mp3",
+		"color": 1
 	},
 	"7": {
 		"sound": "react-oui.mp3",
@@ -19,25 +35,37 @@
 		"sound": "react-nooo.mp3",
 		"color": 2
 	},
+	"10": {
+		"sound": "react-hurt.mp3",
+		"color": 4
+	},
 	"11": {
+		"sound": "sound-fbi.mp3",
+		"color": 16
+	},
+	"13": {
+		"sound": "react-wow.mp3",
+		"color": 12
+	},
+	"14": {
+		"sound": "react-hi2.mp3",
+		"color": 2
+	},
+	"15": {
+		"sound": "react-ouais.mp3",
+		"color": 6
+	},
+	"18": {
 		"sound": "react-aaaah.mp3",
 		"color": 6
 	},
-	"15": {
+	"23": {
 		"sound": "react-ouiouioui.mp3",
 		"color": 9
 	},
 	"24": {
 		"sound": "sound-beep.mp3",
 		"color": 16
-	},
-	"46": {
-		"sound": "sound-fbi.mp3",
-		"color": 16
-	},
-	"47": {
-		"sound": "sound-surprise-motherfucka.mp3",
-		"color": 35
 	},
 	"56": {
 		"sound": "sound-windows.mp3",
@@ -55,12 +83,20 @@
 		"sound": "zik-anemo.mp3",
 		"color": 0
 	},
+	"60": {
+		"sound": "zik-think.mp3",
+		"color": 1
+	},
+	"61": {
+		"sound": "zik-darkness.mp3",
+		"color": 11
+	},
 	"62": {
 		"sound": "zik-ascenseur.mp3",
-		"color": 13
+		"color": 15
 	},
 	"63": {
 		"sound": "zik-qpuc.mp3",
-		"color": 12
+		"color": 13
 	}
 }
